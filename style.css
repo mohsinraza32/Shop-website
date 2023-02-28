@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 183px;
+    position: relative;
+    top: -31px;
+}
+body{
+    background-image: url(./images/gulab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px 50px 0px;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    padding-left: 61px;
+    font-size: 26px;
+    color: white;
+}
+ul{
+    display: flex;
+    padding-top: 23px;
+}
+ul li a:hover{
+    color: red;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.para{
+    color: white;
+    font-size: 23px;
+    max-width: 45%;
+    font-family: sans-serif;
+}
+.head{
+    font-size: 43px;
+    color: white;
+    padding-bottom: 43px;
+    font-family: sans-serif;
+}
